@@ -51,7 +51,7 @@ nav{
 	display: none;
 }
 .navigation{
-	padding: .3em 0;
+	padding: 1.7em 0 1em 0;
 	.container{
 		display: flex;
 		justify-content: space-between;
@@ -436,7 +436,7 @@ footer{
 					display: flex;
 					padding: unset;
 					li{
-						padding: 2em .8em;
+						padding:0 .8em;
 						a{
 							color: var(--dark-color);
 							font-size: 1rem;

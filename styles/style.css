@@ -53,7 +53,7 @@ nav {
 }
 
 .navigation {
-  padding: .3em 0;
+  padding: 1.7em 0 1em 0;
 }
 
 .navigation .container {
@@ -526,7 +526,7 @@ footer .copyright p {
     padding: unset;
   }
   .navigation .container .navbar .navigation-bar li {
-    padding: 2em .8em;
+    padding: 0 .8em;
   }
   .navigation .container .navbar .navigation-bar li a {
     color: var(--dark-color);
