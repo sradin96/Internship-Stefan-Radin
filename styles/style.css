@@ -53,7 +53,7 @@ nav {
 }
 
 .navigation {
-  padding: 2em 0;
+  padding: .3em 0;
 }
 
 .navigation .container {
@@ -449,7 +449,7 @@ footer .copyright p {
   .contact-header {
     max-width: 100%;
     background-color: var(--dark-bg-color);
-    padding: 1em 0;
+    padding: .7em 0;
   }
   .contact-header .container {
     display: -webkit-box;
@@ -468,7 +468,7 @@ footer .copyright p {
     display: flex;
   }
   .contact-header .container .contact-head .contact-phone {
-    padding-right: 2em;
+    padding-right: 2.7em;
   }
   .contact-header .container .contact-head a {
     color: white;
@@ -486,7 +486,7 @@ footer .copyright p {
   }
   .contact-header .container .socials-head p {
     color: white;
-    padding-right: .8em;
+    padding-right: .6em;
     font-family: var(--raleway);
     font-size: 12px;
   }
@@ -510,10 +510,10 @@ footer .copyright p {
             justify-content: space-between;
   }
   .navigation .container .logo {
-    width: 250px;
+    width: 260px;
   }
   .navigation .container .navbar {
-    padding: .5em 0;
+    padding: 0;
     background-color: unset;
     width: unset;
     height: unset;
@@ -526,7 +526,7 @@ footer .copyright p {
     padding: unset;
   }
   .navigation .container .navbar .navigation-bar li {
-    padding: 0 1em;
+    padding: 2em .8em;
   }
   .navigation .container .navbar .navigation-bar li a {
     color: var(--dark-color);
@@ -546,7 +546,7 @@ footer .copyright p {
     width: 35px;
     height: 3px;
     background: var(--brown-bg-color);
-    margin: 8px 0 0 7px;
+    margin-top: 8px;
   }
   .hero-section {
     text-align: left;

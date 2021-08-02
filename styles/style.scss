@@ -51,7 +51,7 @@ nav{
 	display: none;
 }
 .navigation{
-	padding: 2em 0;
+	padding: .3em 0;
 	.container{
 		display: flex;
 		justify-content: space-between;
@@ -379,7 +379,7 @@ footer{
 	.contact-header{
 		max-width: 100%;
 		background-color: var(--dark-bg-color);
-		padding: 1em 0;
+		padding: .7em 0;
 		.container{
 			display: flex;
 			justify-content: space-between;
@@ -387,7 +387,7 @@ footer{
 		.contact-head{
 			display: flex;
 			.contact-phone{
-				padding-right: 2em;
+				padding-right: 2.7em;
 			}
 			a{
 				color: white;
@@ -402,7 +402,7 @@ footer{
 			align-items: center;
 			p{
 				color: white;
-				padding-right: .8em;
+				padding-right: .6em;
 				font-family: var(--raleway);
 				font-size: 12px;
 			}
@@ -424,10 +424,10 @@ footer{
 			align-items: center;
 			justify-content: space-between;
 			.logo{
-				width: 250px;
+				width: 260px;
 			}
 			.navbar{
-				padding: .5em 0;
+				padding: 0;
 				background-color: unset;
 				width: unset;
 				height: unset;
@@ -436,7 +436,7 @@ footer{
 					display: flex;
 					padding: unset;
 					li{
-						padding: 0 1em;
+						padding: 2em .8em;
 						a{
 							color: var(--dark-color);
 							font-size: 1rem;
@@ -455,7 +455,7 @@ footer{
 								width: 35px;
 								height: 3px;
 								background: var(--brown-bg-color);
-								margin: 8px 0 0 7px;
+								margin-top: 8px;
 						}
 					}
 					
