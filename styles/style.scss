@@ -379,7 +379,7 @@ footer{
 	.contact-header{
 		max-width: 100%;
 		background-color: var(--dark-bg-color);
-		padding: .7em 0;
+		padding: 1em 0;
 		.container{
 			display: flex;
 			justify-content: space-between;
@@ -475,6 +475,14 @@ footer{
 				margin-top: -.3em;
 				font-weight: 400;
 			}
+			h1::after{							
+				content: "";
+				display: block;
+				width: 50px;
+				height: 2px;
+				background: var(--brown-bg-color);
+				margin: 8px 0 0 7px;
+		}
 			p{
 				margin-top: 2em;
 				margin-bottom: 1em;
@@ -534,8 +542,15 @@ footer{
 			margin-left: 7em;
 			h2{
 				font-size: 36px;
-
 			}
+			h2::after{							
+				content: "";
+				display: block;
+				width: 35px;
+				height: 3px;
+				background: var(--brown-bg-color);
+				margin: 8px 0 0 7px;
+		}
 			.first-text{
 				font-size: 16px;
 			}
@@ -618,6 +633,14 @@ footer{
 					h3{
 						font-size: 18px;
 					}
+					h3::after{							
+						content: "";
+						display: block;
+						width: 35px;
+						height: 3px;
+						background: var(--brown-bg-color);
+						margin: 8px 0 0 7px;
+				}
 					.footer-links{
 						li{
 							padding: .3em 0;
@@ -637,6 +660,14 @@ footer{
 					h3{
 						font-size: 18px;
 					}
+					h3::after{							
+						content: "";
+						display: block;
+						width: 35px;
+						height: 3px;
+						background: var(--brown-bg-color);
+						margin: 8px 0 0 7px;
+				}
 					.our-adress-links{
 						li{
 							padding: .3em 0;

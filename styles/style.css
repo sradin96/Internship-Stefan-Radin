@@ -449,7 +449,7 @@ footer .copyright p {
   .contact-header {
     max-width: 100%;
     background-color: var(--dark-bg-color);
-    padding: .7em 0;
+    padding: 1em 0;
   }
   .contact-header .container {
     display: -webkit-box;
@@ -562,6 +562,14 @@ footer .copyright p {
     margin-top: -.3em;
     font-weight: 400;
   }
+  .hero-section .main-text h1::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--brown-bg-color);
+    margin: 8px 0 0 7px;
+  }
   .hero-section .main-text p {
     margin-top: 2em;
     margin-bottom: 1em;
@@ -628,6 +636,14 @@ footer .copyright p {
   }
   .our-story .story-text h2 {
     font-size: 36px;
+  }
+  .our-story .story-text h2::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: var(--brown-bg-color);
+    margin: 8px 0 0 7px;
   }
   .our-story .story-text .first-text {
     font-size: 16px;
@@ -727,6 +743,14 @@ footer .copyright p {
   footer .main-footer .container .more-links h3 {
     font-size: 18px;
   }
+  footer .main-footer .container .more-links h3::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: var(--brown-bg-color);
+    margin: 8px 0 0 7px;
+  }
   footer .main-footer .container .more-links .footer-links li {
     padding: .3em 0;
   }
@@ -742,6 +766,14 @@ footer .copyright p {
   }
   footer .main-footer .container .our-address h3 {
     font-size: 18px;
+  }
+  footer .main-footer .container .our-address h3::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: var(--brown-bg-color);
+    margin: 8px 0 0 7px;
   }
   footer .main-footer .container .our-address .our-adress-links li {
     padding: .3em 0;
