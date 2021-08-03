@@ -53,7 +53,7 @@ nav {
 }
 
 .navigation {
-  padding: 1.7em 0 1em 0;
+  padding: 1.5em 0 1em 0;
 }
 
 .navigation .container {
@@ -227,10 +227,10 @@ nav.show-menu {
 
 .our-story .container .story-text h2 {
   color: var(--dark-color);
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: var(--poppins);
-  line-height: 33px;
+  line-height: 52px;
   padding: 1em 0;
 }
 
@@ -255,7 +255,6 @@ nav.show-menu {
   background-color: var(--dark-bg-color);
   position: relative;
   height: 400px;
-  padding: 5em;
 }
 
 .testimonials .container img {
@@ -278,8 +277,9 @@ nav.show-menu {
 .testimonials .container .testimonials-box h2 {
   color: var(--white-color);
   font-family: var(--poppins);
-  line-height: 33px;
+  line-height: 28px;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .testimonials .container .testimonials-box p {
@@ -334,7 +334,7 @@ nav.show-menu {
 }
 
 .the-clients .container .clients-box img {
-  padding: 2em 0;
+  padding: 2em 0 32px 0;
 }
 
 footer {
@@ -342,16 +342,16 @@ footer {
 }
 
 footer .main-footer {
-  padding: 3em 0;
+  padding: 30px 0;
   background-color: #181b1a;
 }
 
 footer .main-footer p {
   color: var(--gray-color);
   font-family: var(--poppins);
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 300;
-  padding-top: 2em;
+  padding-top: 16px;
 }
 
 footer .main-footer .footer-socials {
@@ -367,14 +367,17 @@ footer .main-footer .footer-socials {
 }
 
 footer .main-footer .footer-socials li {
-  margin: 2em;
+  margin: 2em 2em 2em 0;
   border: 1px solid var(--brown-bg-color);
   border-radius: 50%;
-  padding: .8em;
+}
+
+footer .main-footer .footer-socials li i {
+  padding: 11px;
 }
 
 footer .main-footer .more-links {
-  padding-top: 2em;
+  padding-top: 32px;
 }
 
 footer .main-footer .more-links h3 {
@@ -382,6 +385,7 @@ footer .main-footer .more-links h3 {
   font-family: var(--poppins);
   line-height: 33px;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 footer .main-footer .more-links .footer-links {
@@ -389,7 +393,7 @@ footer .main-footer .more-links .footer-links {
 }
 
 footer .main-footer .more-links .footer-links li {
-  padding: .6em 0;
+  padding: 2px;
 }
 
 footer .main-footer .more-links .footer-links li a {
@@ -403,6 +407,7 @@ footer .main-footer .our-address h3 {
   color: var(--white-color);
   font-family: var(--poppins);
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 footer .main-footer .our-address .our-adress-links {
@@ -486,7 +491,7 @@ footer .copyright p {
   }
   .contact-header .container .socials-head p {
     color: white;
-    padding-right: .6em;
+    padding-left: .6em;
     font-family: var(--raleway);
     font-size: 12px;
   }
@@ -496,7 +501,10 @@ footer .copyright p {
     display: flex;
   }
   .contact-header .container .socials-head ul li a {
-    padding: 0 .8em;
+    padding-left: 23px;
+  }
+  .navigation {
+    margin-bottom: 5px;
   }
   .navigation .container {
     display: -webkit-box;
@@ -526,11 +534,11 @@ footer .copyright p {
     padding: unset;
   }
   .navigation .container .navbar .navigation-bar li {
-    padding: 0 .8em;
+    padding: 12px 0 0 30px;
   }
   .navigation .container .navbar .navigation-bar li a {
     color: var(--dark-color);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
     font-family: "Poppins";
@@ -552,15 +560,16 @@ footer .copyright p {
     text-align: left;
   }
   .hero-section img {
-    height: 750px;
+    height: 772px;
   }
   .hero-section .main-text {
-    left: 38%;
+    left: 38.7%;
   }
   .hero-section .main-text h1 {
     font-size: 60px;
-    margin-top: -.3em;
-    font-weight: 400;
+    margin-top: -46px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
   }
   .hero-section .main-text h1::after {
     content: "";
@@ -571,25 +580,34 @@ footer .copyright p {
     margin: 8px 0 0 7px;
   }
   .hero-section .main-text p {
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 30px;
     font-size: 18px;
     line-height: 30px;
     padding: unset;
+    letter-spacing: .1px;
   }
   .hero-section .main-text a {
     font-size: 14px;
-    padding: .98rem 2.3rem;
-    margin-top: .5em;
+    padding: 14px 36px;
+    margin: 32px 0 0 5px;
   }
   .our-services {
-    padding: 7em 0 16em 0;
+    padding: 100px 0 256px 0;
   }
   .our-services .container h2 {
     font-size: 36px;
+    font-weight: 600;
+  }
+  .our-services .container h2::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: var(--brown-bg-color);
+    margin: 20px 0 0 522px;
   }
   .our-services .container p {
-    padding: 2em 0 6em 0;
+    padding: 21px 0 98px 0;
   }
   .our-services .container .services-box {
     display: -webkit-box;
@@ -605,7 +623,7 @@ footer .copyright p {
             justify-content: space-between;
   }
   .our-services .container .services-box .box .box-text img {
-    margin-top: 5em;
+    margin: 60px 0 -14px 0;
     width: 80px;
     height: 80px;
   }
@@ -613,7 +631,7 @@ footer .copyright p {
     font-size: 18px;
   }
   .our-story {
-    padding-bottom: 10em;
+    padding-bottom: 147px;
   }
   .our-story .container {
     display: -webkit-box;
@@ -626,13 +644,23 @@ footer .copyright p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .our-story .container .story-img::after {
+    content: "";
+    display: block;
+    border: 2px solid var(--brown-bg-color);
+    height: 480px;
+    margin-top: -468px;
+    margin-right: -26px;
+    margin-left: 24px;
+  }
   .our-story .container img {
-    width: 445px;
-    height: 490px;
+    width: 440px;
+    height: 488px;
   }
   .our-story .story-text {
     text-align: left;
-    margin-left: 7em;
+    margin-left: 112px;
+    margin-top: 67px;
   }
   .our-story .story-text h2 {
     font-size: 36px;
@@ -640,19 +668,21 @@ footer .copyright p {
   .our-story .story-text h2::after {
     content: "";
     display: block;
-    width: 35px;
+    width: 38px;
     height: 3px;
     background: var(--brown-bg-color);
     margin: 8px 0 0 7px;
   }
   .our-story .story-text .first-text {
+    margin-top: -18px;
     font-size: 16px;
   }
   .our-story .story-text .second-text {
     font-size: 14px;
+    margin-top: -20px;
   }
   .testimonials {
-    height: 526px;
+    height: 521px;
     overflow: hidden;
   }
   .testimonials .container img {
@@ -661,30 +691,53 @@ footer .copyright p {
     -webkit-transform: translate(65%);
             transform: translate(65%);
     width: 568px;
-    height: 526;
+    height: 526px;
   }
   .testimonials .container .testimonials-box {
+    padding: 76px 140px;
+    width: 1088px;
     border: 1px solid var(--brown-bg-color);
-    padding: 4.5em 10em;
   }
   .testimonials .container .testimonials-box h2 {
     font-size: 36px;
+    margin-top: -26px;
+    padding-bottom: 26px;
+  }
+  .testimonials .container .testimonials-box h2::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: var(--brown-bg-color);
+    margin: 20px 0 0 380px;
   }
   .testimonials .container .testimonials-box p {
     font-size: 16px;
+    padding: 2px 0 22px 0;
+    letter-spacing: -.2px;
   }
   .testimonials .container .testimonials-box a {
     font-size: 14px;
   }
   .the-clients {
-    padding-top: 6em;
+    padding-top: 96px;
+    padding-bottom: 13px;
   }
   .the-clients .container h2 {
     font-size: 36px;
   }
+  .the-clients .container h2::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: var(--brown-bg-color);
+    margin: 20px 0 0 520px;
+  }
   .the-clients .container p {
     font-size: 18px;
-    padding-top: 2em;
+    padding-top: 18px;
+    letter-spacing: -1px;
   }
   .the-clients .container .clients-box {
     display: -webkit-box;
@@ -705,11 +758,11 @@ footer .copyright p {
     margin-bottom: 1.5em;
   }
   .the-clients .container .clients-box img {
-    margin: 2em 3.5em 1em 3.5em;
+    margin: 36px 3.5em 3px 3.5em;
   }
   footer .main-footer {
     text-align: left;
-    padding: 8em 0 5em 0;
+    padding: 135px 0 105px 0;
   }
   footer .main-footer .container {
     display: -webkit-box;
@@ -722,8 +775,14 @@ footer .copyright p {
         -ms-flex-align: center;
             align-items: center;
   }
+  footer .main-footer .container img {
+    margin-top: 22px;
+  }
   footer .main-footer .container p {
     width: 350px;
+    padding: 2px 0 12px 0;
+    margin-top: 12px;
+    font-size: 13px;
   }
   footer .main-footer .container .footer-socials {
     display: -webkit-box;
@@ -734,55 +793,58 @@ footer .copyright p {
             justify-content: left;
   }
   footer .main-footer .container .footer-socials li {
-    margin: .5em;
+    margin: 10px 10px 0 0;
   }
   footer .main-footer .container .more-links {
     margin: 0 7em;
-    padding-top: 3em;
+    padding-top: 34px;
   }
   footer .main-footer .container .more-links h3 {
     font-size: 18px;
+    margin-bottom: 0px;
+    line-height: 43px;
   }
   footer .main-footer .container .more-links h3::after {
     content: "";
     display: block;
-    width: 35px;
-    height: 3px;
+    width: 40px;
+    height: 2px;
     background: var(--brown-bg-color);
-    margin: 8px 0 0 7px;
+    margin: 8px 0 0 0px;
   }
   footer .main-footer .container .more-links .footer-links li {
-    padding: .3em 0;
+    padding: 0 0;
   }
   footer .main-footer .container .more-links .footer-links li a {
     font-size: 14px;
   }
-  footer .main-footer .container .more-links .footer-links li a i {
-    padding-right: 2em;
+  footer .main-footer .container .more-links .footer-links li i {
+    margin-right: 2em;
   }
   footer .main-footer .container .our-address {
-    padding-top: 2em;
-    margin-left: 2.5em;
+    padding-top: 20px;
+    margin-left: 52px;
   }
   footer .main-footer .container .our-address h3 {
     font-size: 18px;
+    margin-bottom: 6px;
   }
   footer .main-footer .container .our-address h3::after {
     content: "";
     display: block;
-    width: 35px;
-    height: 3px;
+    width: 40px;
+    height: 2px;
     background: var(--brown-bg-color);
-    margin: 8px 0 0 7px;
+    margin: 8px 0 0 0px;
   }
   footer .main-footer .container .our-address .our-adress-links li {
-    padding: .3em 0;
+    padding: 0 0;
   }
   footer .main-footer .container .our-address .our-adress-links li i {
-    margin-right: 2em;
+    margin-right: 16px;
   }
   footer .main-footer .container .our-address .our-adress-links .first-li {
-    margin-left: 3em;
+    margin-left: 28px;
   }
   .copyright p {
     font-size: 14px;
