@@ -47,18 +47,22 @@ nav{
 	display: none;
 }
 
-.show-desktop{
+.show-desktop {
 	display: none;
 }
+
 .navigation{
 	padding: 1.5em 0 1em 0;
+
 	.container{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		.logo{
+		
+		.logo {
 			width: 50%;
 		}
+
 		#burger-menu{
 			color: var(--dark-color);
 		}
@@ -362,7 +366,6 @@ footer{
 			padding: 1em;
 			line-height: 30px;
 		}
-
 	}
 }
 
@@ -422,7 +425,7 @@ footer{
 		}
 	}
 	}
-	.navigation{
+	.navigation {
 		margin-bottom: 5px;
 		.container{
 			display: flex;
